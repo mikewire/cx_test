@@ -13,7 +13,7 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
+  background: #FFF;
   font: 13.34px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
@@ -62,7 +62,15 @@ a:visited { color: #a0a; }
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
+.bck {
+  position: absolute;
+  top: 0px;
+  left: -150px;
 
+}
+.subhero-full-width {
+  margin-top: 143px;
+}
 .header a {
   font-weight: bold;
   text-decoration: none;
